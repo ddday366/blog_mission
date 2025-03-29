@@ -4,7 +4,7 @@ import com.sprint.mission.blog_mission.dto.request.UserCreateRequestDTO;
 import com.sprint.mission.blog_mission.entity.User;
 import com.sprint.mission.blog_mission.repository.UserRepository;
 import com.sprint.mission.blog_mission.service.UserService;
-import com.sprint.mission.blog_mission.service.security.JwtTokenProvider;
+import com.sprint.mission.blog_mission.security.JwtTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
